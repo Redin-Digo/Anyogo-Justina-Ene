@@ -133,6 +133,10 @@ h3 {
   text-shadow: 5px 5px 5px rgb(92, 85, 86);
 }
 
+.code-lang {
+  color: powderblue;
+}
+
 @media (max-width: 750px) {
   h1 {
     font-size: 55px;
