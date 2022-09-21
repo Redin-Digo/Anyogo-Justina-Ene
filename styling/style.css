@@ -1,0 +1,28 @@
+:root {
+  --body-text: "El Messiri", sans-serif;
+  --alt-text: "Rubik Dirt", cursive, monospace;
+}
+
+body {
+  font-family: var(--body-text);
+}
+
+span {
+  font-family: var(--alt-text);
+}
+
+h1 {
+  font-size: 80px;
+}
+
+h4 {
+  font-size: 28px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.container {
+  margin-top: 130px;
+}
