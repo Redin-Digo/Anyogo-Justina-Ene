@@ -94,7 +94,7 @@ li {
 }
 
 .social-links {
-  margin: 20px;
+  margin: 25px;
   padding: 1px 10px;
   font-size: 22px;
   color: var(--text-colour);
@@ -124,4 +124,42 @@ li {
 h3 {
   font-family: var(--alt-text);
   color: var(--highlights);
+}
+
+.resume {
+  font-size: 100px;
+  font-family: var(--alt-text);
+  color: var(--highlights);
+  text-shadow: 5px 5px 5px rgb(92, 85, 86);
+}
+
+@media (max-width: 750px) {
+  h1 {
+    font-size: 55px;
+  }
+
+  p,
+  .social-links {
+    font-size: 18px;
+  }
+
+  h3 {
+    font-size: 24px;
+  }
+
+  .info {
+    font-size: 55px;
+  }
+
+  .social-links {
+    margin: 12px;
+  }
+
+  .work {
+    display: none;
+  }
+
+  .resume {
+    font-size: 70px;
+  }
 }
