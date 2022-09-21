@@ -1,18 +1,25 @@
 :root {
   --body-text: "El Messiri", sans-serif;
   --alt-text: "Rubik Dirt", cursive, monospace;
+  --body-colour: black;
+  --text-colour: rgb(255, 234, 234);
+  --highlights: crimson;
 }
 
 body {
   font-family: var(--body-text);
+  background-color: var(--body-colour);
+  color: var(--text-colour);
 }
 
 span {
   font-family: var(--alt-text);
+  color: rgb(250, 66, 103);
 }
 
 h1 {
   font-size: 80px;
+  font-weight: bold;
 }
 
 h4 {
@@ -23,6 +30,67 @@ p {
   font-size: 20px;
 }
 
+small {
+  font-family: monospace;
+  font-size: 13px;
+}
+
+.nav-link {
+  font-family: var(--alt-text);
+  font-size: 16px;
+}
+
+.nav-link:hover {
+  color: var(--highlights);
+  transition: all 300ms ease-in-out;
+}
+
 .container {
   margin-top: 130px;
+}
+
+.img-fluid {
+  border: rgb(24, 23, 23) solid 5px;
+  border-radius: 30px;
+}
+
+.btn {
+  color: var(--text-colour);
+  border: var(--text-colour) solid 1px;
+  border-radius: 10px;
+}
+
+.btn:hover {
+  color: var(--highlights);
+  background-color: var(--body-colour);
+  border: var(--highlights) solid 1px;
+  border-radius: 10px;
+  transition: all 300ms ease-in-out;
+}
+
+.social-links {
+  margin: 20px;
+  padding: 1px 10px;
+  font-size: 22px;
+  color: var(--text-colour);
+  border: 1px solid var(--text-colour);
+  border-radius: 50%;
+}
+
+.social-links:hover {
+  color: var(--body-colour);
+  background-color: var(--highlights);
+  border: var(--highlights) solid 1px;
+  border-radius: 50%;
+  transition: all 300ms ease-in-out;
+}
+
+.social {
+  color: var(--text-colour);
+}
+
+.social:hover {
+  color: var(--highlights);
+  text-decoration: none;
+  transition: all 300ms ease-in-out;
 }
